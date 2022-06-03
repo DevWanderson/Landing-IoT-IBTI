@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="theme-color" content="#3860AD">
+  <meta name="description" content="IBTI Plataforma IoT">
+  <meta name="og:url" property="og:url" content="https://ibti.org.br/">
+  <meta name="og:type" property="og:type" content="website">
+  <meta name="og:title" property="og:title" content="IBTI Plataforma IoT">
+  <meta name="og:image" property="og:image" content="https://abinc.org.br/site2020/wp-content/uploads/2020/08/IBTI.png">
+  <meta name="og:description" property="og:description" content="IBTI Plataforma IoT">
+
+  <title> IBTI - Plataforma IoT</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Menu Dropdown Icons CSS File -->
+  <link href="assets/css/icons.css" rel="stylesheet">
+
+
+
+  <!-- Previnir refresh na página -->
+  <script type="text/javascript" src="jquery.js"></script>
+  <script src="validate.js"></script>
+
+</head>
+
+<body>
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="mailto:vendas@ibti.org.br">vendas@ibti.org.brㅤㅤ</a>
+        <i class="bi bi-whatsapp whatsapp-icon"></i><a href="https://wa.me/5561985951316" title="WhatsApp"
+          target="_blank">61 98595-1316ㅤㅤ</a>
+        <i class="bi bi-phone"></i><a href="tel:+55613468-3889">+55 61 3468-3889ㅤㅤ</a>
+      </div>
+      <div class="social-links d-none d-md-block">
+        <a href="https://twitter.com/ibti_tic" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://pt-br.facebook.com/ibti.tic/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCvkJ7dEYL59byRRmz-mPo4A" class="youtube"><i
+            class="bi bi-youtube"></i></a>
+        <a href="https://www.instagram.com/ibti_ict/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://ibti.org.br/contato" class="contato"><i class="bi bi-envelope"></i></a>
+        <a href="https://br.linkedin.com/company/ibti-tic" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html"><img src="assets/img/ibti3.png" alt="" width="100" height="40"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Home</a>
+
+            <div class="dropdown-content">
+              <a href="#about"><i class="fi fi-rs-data-transfer"></i>A Plataforma</a>
+              <a class="nav-link scrollto" href="#why-us"> <i class="fi fi-rs-settings"></i>Funcionalidades</a>
+              <a class="nav-link scrollto" href="#services"><i class="fi fi-rr-settings-sliders"></i>Diferenciais</a>
+              <a class="nav-link scrollto " href="#galeria"><i class="fi fi-ss-map-marker"></i>Aplicações</a>
+            </div>
+
+          </li>
+
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Produtos</a>
+            <div class="dropdown-content">
+              <a id="unused" class="nav-link scrollto" href="javascript:void(0)">
+                <i class="fi fi-rr-cloud-share"></i>
+                <p>
+                  Cloud <br />
+                  <span>Utilize em Cloud</span>
+                </p>
+              </a>
+              <a id="unused" class="unused" href="javascript:void(0)">
+                <i class="fi fi-rs-users-alt"></i>
+                <p>Comunidade <br />
+                  <span>Edição Open Source</span>
+                </p>
+              </a>
+            </div>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Desenvolvedores</a>
+            <div class="dropdown-content">
+              <a id="unused" href="javascript:void(0)">
+                <i class="fi fi-rs-document"></i>
+                <p>Documentação <br />
+                  <span>Saiba o que é a plataforma</span>
+                </p>
+              </a>
+
+              <a href="https://plataforma-iot.readthedocs.io/en/latest/">
+                <i class="fi fi-rs-book-alt"></i>
+                <p>Guia de Usuário <br />
+                  <span>Guia de uso da plataforma</span>
+                </p>
+              </a>
+              <a href="https://conteudo.ibti.org.br/arquiteto-iot">
+                <i class="fi fi-rs-gym"></i>
+                <p>Treinamento<br />
+                  <span>Aprofunde conhecimentos</span>
+                </p>
+              </a>
+              <a id="unused" href="javascript:void(0)"><i class="fi fi-rs-rocket"></i>
+                <p>Guia de Instalação <br />
+                  <span>Instale em seu servidor</span>
+                </p>
+              </a>
+
+            </div>
+          </li>
+
+          <li class="dropdown">
+            <a href="#faq" class="dropbtn">FAQ</a>
+            <div class="dropdown-content">
+              <a href="#faq"><i class="fi fi-rs-interrogation"></i>
+                <p>Perguntas Frequentes<br />
+                  <span>Dúvidas? Saiba mais</span>
+                </p>
+              </a>
+            </div>
+          </li>
+
+          <li class="dropbtn">
+            <a href="#contact">Contato</a>
+          </li>
+          <li class="dropbtn">
+            <a href="https://iotibti.ddns.net/login">Login</a>
+          </li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav> <!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
+      <h1>Plataforma Open Source para IoT</h1>
+      <h2>Uma plataforma analítica completa de gestão de conectividade e visualização de indicadores e métricas para a
+        tomada de decisão.</h2>
+      <a href="#contact" class="btn-get-started scrollto">Solicitar Demo</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+            <img src="assets/img/plataformap.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3> A Plataforma </h3>
+            <p class="fst">
+              Desenvolvida com o padrão de código aberto, a Plataforma IoT desenvolvida pelo IBTI possui capacidade de
+              armazenamento com alta escalabilidade, além de ser adaptável a diversos dispositivos.
+            </p>
+            <p class="fst">
+              Integrada com redes de ampla cobertura e otimizadas para dispositivos de baixa potência, ela é a solução
+              perfeita para transformar as informações de seus dispositivos LoraWAN e Sigfox em dados úteis para o seu
+              negócio.
+            </p>
+            <p class="fst">
+              Com a conectividade MQTT e HTTP da Plataforma, dados de dispositivos com alta taxa de uplinks são
+              processados e podem ser visualizados em gráficos, mapas e dashboards customizáveis. Soluções de
+              rastreamento com histórico de rotas, acompanhamento em tempo real e gráficos de variáveis de acordo com o
+              dispositivo, tornam a Plataforma IoT flexível.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i>Temos suporte a diversos dispositivos e sensores, possibilitando a
+                visualização rápida dos dados e uma implementação ágil de soluções.</li>
+              <li><i class="bi bi-check-circle"></i>Hardware desenvolvido utilizando o MCU ARM STM32 para amplas
+                soluções baseadas em conexão LoRaWAN e Sigfox, customizável de acordo com a necessidade do projeto.
+              </li>
+            </ul>
+            <p>
+              Em poucas etapas, sua solução IoT está pronta.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+        <div class="section-title">
+          <span> Funcionalidades </span>
+          <h2> Funcionalidades </h2>
+        </div>
+
+        <div id="boxes" class="row">
+
+          <div id="content" class="col-lg-4 mt-4 mt-lg-4" data-aos="fade-up" data-aos-delay="150">
+            <div class="box">
+              <h4>Cadastro</h4>
+              <p>Cadastre e gerencie seus dispositivos, seus tipos de dados e variáveis que serão armazenadas.</p>
+            </div>
+          </div>
+
+          <div id="content" class="col-lg-4 mt-4 mt-lg-4" data-aos="fade-up" data-aos-delay="150">
+            <div class="box">
+              <h4>Configuração</h4>
+              <p>Escolha as variáveis dos dispositivos para traçar mapas, gráficos e tabelas e crie seu dashboard.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-4" data-aos="fade-up" data-aos-delay="150">
+            <div class="box">
+              <h4>Funcionalidades</h4>
+              <p>Veja seu dashboard, ative alertas para automação e desfrute de funcionalidades para processos de
+                Analytics.</p>
+            </div>
+          </div>
+        </div>
+
+        <section class="slide-carousel">
+          <!-- Carousel -->
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/img/show/dashboard.png" alt="dashboard" class="d-block w-60">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/show/analytics.png" alt="analytics" class="d-block w-60">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/show/alerts.png" alt="alertas" class="d-block w-60">
+              </div>
+            </div>
+          </div>
+        </section>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row d-flex align-items-center">
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <span> Diferenciais </span>
+          <h2> Diferenciais </h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-shield"></i></div>
+              <h4><a href=""> Criptografia </a></h4>
+              <p> Suporte a payloads criptografados, gerando mais segurança e privacidade. </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up"
+            data-aos-delay="150">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-map"></i></div>
+              <h4><a href=""> Real Time </a></h4>
+              <p> Monitore seus dispositivos ao vivo e veja a evolução dos dados instantaneamente.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxs-dashboard"></i></div>
+              <h4><a href="">Visualização</a></h4>
+              <p> Visualize seus dados como quiser com tabelas, gráficos e dashboards personalizados </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-devices"></i></div>
+              <h4><a href="">Tratamento de payload</a></h4>
+              <p>Selecione qualquer variável de seus dispositivos e realize operações, insira condições para tratamento
+                e tenha o valor mais próximo da realidade de seu projeto.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-data"></i></div>
+              <h4><a href="">Integridade de armazenamento</a></h4>
+              <p> Seus dados são armazenados em múltiplos servidores, evitando perda de informações de dispositivos.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file-blank"></i></div>
+              <h4><a href=""> Gestão</a></h4>
+              <p> Adicione, remova, atualize, desative e realize atuações em seus dispostivos com a gestão simplificada
+                que a Plataforma IBTI para IoT oferece.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-lock"></i></div>
+              <h4><a href=""> Open Source</a></h4>
+              <p> A Plataforma IoT está licenciada sob Apache License 2.0, então você pode usá-lo em seus produtos
+                comerciais gratuitamente.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-code"></i></div>
+              <h4><a href=""> Multiprotocolo</a></h4>
+              <p> Além do suporte a MQTT, CoAP e HTTP, os usuários da plataforma também podem usar suas próprias
+                implementações de transporte ou personalizar o comportamento dos protocolos existentes.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-bell"></i></div>
+              <h4><a href=""> Alertas</a></h4>
+              <p> Oferece capacidade de criar e gerenciar alarmes relacionados às suas entidades: dispositivos, ativos,
+                clientes, valores, etc. Permite o monitoramento de alarmes em tempo real e o acionamento de eventos de
+                desconexão ou inatividade do dispositivo.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-stats"></i></div>
+              <h4><a href=""> Atuadores</a></h4>
+              <p> Ligue e/ou desligue seus dispositivos de forma remota e em tempo real. Juntamente com o sistema de
+                gerenciamento de alertas, observe e atue em seus dispositivos de qualquer lugar.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-key"></i></div>
+              <h4><a href=""> Segurança</a></h4>
+              <p> Suporta criptografia de transporte para protocolos MQTT e HTTP(s). Suporta autenticação de dispositivo
+                e gerenciamento de credenciais de dispositivo.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-check"></i></div>
+              <h4><a href=""> Visualização</a></h4>
+              <p> Fornece mais de 30 gráficos configuráveis prontos para uso como gráficos de linha integrados,
+                medidores digitais e analógicos, mapas e muito mais.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>Acesse nossa Plataforma</h3>
+          <a class="cta-btn" href="#contact">Solicitar Demo</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Aplicações Section ======= -->
+    <section id="galeria" class="galeria">
+      <div class="container">
+
+        <div class="section-title">
+          <span> Aplicações </span>
+          <h2> Aplicações </h2>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+        </div>
+
+        <div class="row galeria-container" data-aos="fade-up" data-aos-delay="150">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/aplicacoes/smart-truck.jpg" class="img-fluid" alt=" dispositivos de rastreamento ">
+            <div class="portfolio-info">
+              <h4> Logística </h4>
+              <p>Fornece controle de rotas capaz de identificar possíveis problemas e indicar a melhor direção até o
+                local de destino.</p>
+              <a href="assets/img/aplicacoes/smart-truck.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Rastreamento de Dispositvos"><i
+                  class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/aplicacoes/smart-agriculture.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Agronegócio</h4>
+              <p>Possibilita o controle dos níveis necessários para o cultivo, colheita e hidroponia, além do
+                gerenciamento de insumos nas lavouras por meio de drones ou sensores instalados no campo.</p>
+              <a href="assets/img/aplicacoes/smart-agriculture.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="controle de Cultivo"><i class="bx bx-plus"></i></a>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/aplicacoes/industry-logistic.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Indústria</h4>
+              <p>Realiza um mapeamento e controle de determinadas áreas, para medições e rastreio de objetos em tempo
+                real, controle de estoque, controle de máquinas e na otimização de operações.</p>
+              <a href="assets/img/aplicacoes/industry-logistic.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Internet das Coisas na industria"><i
+                  class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+      <div class="section-title">
+        <span>Perguntas Frequentes</span>
+        <h2>Perguntas Frequentes</h2>
+      </div>
+
+      <div class="frequently">
+        <div class="perguntas">
+          <button class="accordion">O que é a Plataforma?</button>
+          <div class="question">
+            <p id="resposta">É uma plataforma de código aberto que permite construir uma solução completa de
+              gerenciamento e monitoramento de dispositivos IoT. A Plataforma facilita o desenvolvimento de soluções e
+              agrega valor ao ecossistema IoT.</p>
+          </div>
+
+          <button class="accordion">É gratuito mesmo?</button>
+          <div class="question">
+            <p>A plataforma está disponível em 2 versões, sendo uma Community (gratuita) e uma versão em Cloud
+              (freemium).</p>
+          </div>
+
+          <button class="accordion">Por onde começar?</button>
+          <div class="question">
+            <p id="resposta">Você pode começar a utilizar a plataforma de 2 formas:
+              </br><span>&#x26AC</span> Em seu próprio servidor ou nuvem: você faz a instalação da plataforma via docker
+              e
+              começa a utilizá-la em sua própria infraestrutura. Você pode fazer o download da plataforma através do
+              repositório no <a href="https://github.com/IBTI-DF/plataformaiot">GitHub</a>.
+              </br><span>&#x26AC</span> Cloud do IBTI: não é necessária nenhuma instalação. Com um login, você tem
+              acesso a
+              todas as funcionalidades da plataforma na nuvem do IBTI, contemplando todos os requisitos de segurança,
+              disponibilidade e escalabilidade.
+            </p>
+          </div>
+
+          <button class="accordion">O que posso fazer com a Plataforma?</button>
+          <div class="question">
+            <p>A plataforma permite que você gerencie e monitore sua solução de internet das coisas de forma rápida,
+              fácil e automatizada. Em poucos minutos, você já pode começar a monitorar seus dispositivos e sensores de
+              temperatura, ruído, humidade, acelerômetro, GPS, entre outros. Entre as funcionalidades mais destacadas
+              temos:
+              </br><span>&#x26AC</span> APIs abertas facilitando o desenvolvimento de qualquer tipo de solução;
+              </br><span>&#x26AC</span> Escalabilidade horizontal e capacidade de armazenamento de grandes volumes de
+              dados estruturados e não estruturados;
+              </br><span>&#x26AC</span> Templates para diferentes verticais (cidades inteligentes, indústria 4.0,
+              logística, varejo, etc.);
+              </br><span>&#x26AC</span> Construção de regras de alertas, permitindo o monitoramento e atuação dos
+              dispositivos com envio de mensagens por e-mail e telegram;
+              </br><span>&#x26AC</span> Acompanhamento de eventos em tempo real;
+              </br><span>&#x26AC</span> Conectores para diferentes tipos de protocolos;
+              </br><span>&#x26AC</span> Dashboard analítico;
+              </br><span>&#x26AC</span> Setorização de dispositivos.
+            </p>
+          </div>
+
+          <button class="accordion">Como é a hospedagem da plataforma?</button>
+          <div class="question">
+            <p id="resposta">A plataforma na versão cloud está hospedada nos servidores Microsoft Azure.</p>
+          </div>
+
+          <button class="accordion">Como é feito o armazenamento dos dados?</button>
+          <div class="question">
+            <p id="resposta">A plataforma utiliza de dois serviços para armazenamento, sendo o Firebase para
+              persistência dos dados e o MongoDB utilizado para a permanência, oferecendo portanto, alta disponibilidade
+              e tolerância a falhas.</p>
+          </div>
+
+        </div>
+        <!-- Middle block 1&2 -->
+        <div class="perguntas2">
+          <button class="accordion">Como conectar seus dispositivos?</button>
+          <div class="question">
+            <p id="resposta">A plataforma suporta vários tipos de conexões, baseadas nos protocolos MQTT, HTTP, LoRaWAN
+              e SigFox. Criamos um guia especial para facilitar o cadastro de todos os tipos de dispositivos. Também
+              temos pré-configurados vários sensores dos principais fabricantes do mercado.</p>
+          </div>
+
+          <button class="accordion">Preciso de um kit de desenvolvimento?</button>
+          <div class="question">
+            <p>Não. Fizemos parceria com os principais fabricantes de dispositivos do mercado para facilitar a
+              integração dos seus dispositivos. Além disso, fornecemos uma API extremamente simples que permite conectar
+              através dos protocolos mais comuns de IoT.</p>
+          </div>
+
+          <button class="accordion">Como é feita a segurança da plataforma?</button>
+          <div class="question">
+            <p id="resposta">Disponibilizamos a comunicação utilizando os protocolos MQTT (sobre SSL), ou HTTPS para
+              criptografía de transporte. Todos os dispositivos também possuem tokens de acesso.</p>
+          </div>
+
+          <button class="accordion">Quantos dispositivos a plataforma pode suportar?</button>
+          <div class="question">
+            <p id="resposta">A plataforma possui escalabilidade horizontal permitindo a criação de cenários com poucos
+              dispositivos até vários milhões de dispositivos conectados via MQTT.</p>
+          </div>
+
+          <button class="accordion">Qual a licença utilizada?</button>
+          <div class="question">
+            <p id="resposta">A Plataforma utiliza a licença MIT, também chamada de licença X ou de licença X11. É uma
+              licença de programas de computadores (software), criada pelo Instituto de Tecnologia de Massachusetts
+              (MIT). Qualquer pessoa que obtém uma cópia do software e seus arquivos de documentação associados pode
+              lidar com eles sem restrição, incluindo sem limitação os direitos a usar, copiar, modificar, mesclar,
+              publicar, distribuir, vender cópias do software. As condições impostas para tanto são apenas manter o
+              aviso de copyright e uma cópia da licença em todas as cópias do software.</p>
+          </div>
+          <button class="accordion">Como contatar o suporte?</button>
+          <div class="question">
+            <p id="resposta">O suporte é oferecido apenas para os planos suportados. Ao entrar em contato com o suporte
+              através do formulário de contato, uma equipe irá avaliar o seu problema e enviará uma mensagem com a
+              solução.</p>
+          </div>
+        </div>
+
+      </div><!-- End FREQUENTLY div -->
+
+    </section><!-- End FAQ Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Contatos</span>
+          <h2>Contatos</h2>
+          <p> Ficou interessado? Preencha o formulário, entraremos em contato o mais rápido possível!</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+
+          <div class="col-lg-12">
+            <form id="sendMail" action="/forms/email.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="empresa" class="form-control" id="empresa" placeholder="Sua Empresa"
+                    required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="text" name="cargo" class="form-control" id="cargo" placeholder="Cargo/Função" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="tel" class="form-control" name="telefone" id="subject" placeholder="Celular" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="assunto" id="assunto" placeholder="Assunto" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Enviando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Sua Mensagem foi enviada. Obrigado!</div>
+              </div>
+              <div class="text-center" id="submit"><button type="submit">Enviar</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+
+
+          <div class="footer-info2 ">
+            <iframe class="mb-4 mb-lg-0"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3840.778844772353!2d-47.91296714876278!3d-15.709884889050388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a39f8b105f243%3A0x153a12f073ac3aa6!2sInstituto%20Bras%C3%ADlia%20de%20Tecnologia%20e%20Inova%C3%A7%C3%A3o%20-%20IBTI!5e0!3m2!1spt-BR!2sbr!4v1618321834339!5m2!1spt-BR!2sbr"
+              width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+
+          <div class="footer-info">
+            <h3>IBTI-IOT</h3>
+            <p>
+              Parque Tecnológico de Brasília<br>
+              Lote 04, Bl B, 1º Andar,<br>
+              Brasília - DF <br>
+              70635-815<br><br>
+              <strong>Telefones:</strong> (61) 98595-1316 <br> (61) 3468-3890<br>
+              <strong>E-mail:</strong> vendas@ibti.org.br<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="https://twitter.com/ibti_ict" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.facebook.com/ibti.ict" class="facebook" target="_blank"><i
+                  class="bx bxl-facebook"></i></a>
+              <a href="https://instagram.com/ibti_ict?utm_medium=copy_link" class="instagram" target="_blank"><i
+                  class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/ibti-ict/" class="linkedin" target="_blank"><i
+                  class="bx bxl-linkedin"></i></a>
+              <a href="https://wa.me/5561985951316" class="whatsapp" target="_blank"><i
+                  class="bi bi-whatsapp whatsapp-icon"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="/FAQ.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- New user modal-->
+  <div class="modal fade" id="newUserModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn" id="btnLogin"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of New user modal-->
+
+</body>
+
+</html>
