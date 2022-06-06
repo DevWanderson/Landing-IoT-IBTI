@@ -130,6 +130,8 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.6);
   transition: 0.3s;
   font-size: 12px;
+  margin-right: 10px;
+
 }
 
 #topbar .contact-info a:hover {
@@ -139,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 #topbar .contact-info i {
   color: #0A7A34;
   line-height: 0;
-  margin-right: 5px;
+  padding: 5px;
 }
 
 #topbar .contact-info .phone-icon {
@@ -446,9 +448,11 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #hero {
     width: auto;
+    height: calc(50vh - 50px);
     text-align: center;
-    background: url("../img/landing-hero.gif") top center;
+    background: url("../img/hero-bg.jpg") top center;
   }
+
   #hero .container {
     padding-top: 40px;
   }
@@ -744,14 +748,16 @@ section {
     width: 100%;
     padding: 40px 10px 50px 10px;
   }
-  .carousel-inner img:hover {
-    display: flex;
-    width: 200%;
-  }
   .carousel-indicators button{
     display: flex;
   }
+  .carousel-inner img:focus {
+    display: flex;
+    width: 100%;
+  }
 }
+
+
 
 /*--------------------------------------------------------------
 # Clients
