@@ -376,8 +376,9 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: auto;
+  margin-top: 0px;
   height: calc(100vh - 110px);
-  background: url("../img/landing-hero.gif") top center;
+  background: url("../img/landing.gif") top center;
   background-size: cover;
   position: relative;
 }
